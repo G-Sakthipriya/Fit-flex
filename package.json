@@ -1,0 +1,25 @@
+ {
+  "name": "fitflex",
+  "version": "1.0.0",
+  "description": "FitFlex web app with OTP registration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "twilio": "^4.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "otp": {
+    "phone": "+91xxxxxxxxxx",
+    "otp": 123456
+  }
+}
